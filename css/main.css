@@ -1,0 +1,542 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight: 400;
+    color: #fff;
+    background: #1C1B21;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, hr {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-weight: 700;
+    line-height: 1.5em;
+    font-size: 48px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header {
+    background: url(../img/header-bg.png) no-repeat;
+    background-size: 100%;
+    padding-bottom: 179px;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 632px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.menu a:hover {
+    color: rgb(201, 201, 201);
+}
+
+.audio-player {
+    margin-top: 322px;
+    margin-bottom: 130px;
+}
+
+.audio-player h1 {
+    margin-top: 10px;
+    margin-bottom: 52px;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 1.4em;
+    -webkit-text-stroke: 1px #fff;
+    color:rgb(255, 255, 255, 0);
+}
+
+.player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play-btn {
+    height: 25px;
+    cursor: pointer;
+}
+
+.progress-bar {
+    background: #fff;
+    height: 2px;
+    width: 887px;
+    cursor: pointer;
+    position: relative;
+}
+
+.progress {
+    background: #7A66CC;
+    width: 0px;
+    height: 2px;
+}
+
+.audio-time {
+    width: 109px;
+    font-weight: 500;
+    display: flex;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news p {
+    background: rgb(122, 102, 204, 0.7);
+    font-size: 16px;
+    font-weight: 500;
+    width: 310px;
+    margin-top: -103px;
+    border-radius: 20px 0;
+    padding: 21px 20px;
+    position: relative;
+}
+
+.news__item {
+    overflow: hidden;
+    border-radius: 20px 0;
+}
+
+.news__item img {
+    transition: all 0.3s ease;
+}
+
+.news__item img:hover {
+    transform: scale(1.2);
+    overflow: hidden;
+}
+
+.about {
+    padding-bottom: 150px;
+}
+
+.about__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about .title {
+    margin-bottom: 60px;
+}
+
+.about h2 {
+    display: inline;
+}
+
+.about .title img {
+    margin-right: 30px;
+}
+
+.info-text {
+    font-size: 16px;
+    width: 540px;
+    opacity: 0.7;
+    margin-bottom: 60px;
+}
+
+.cases {
+    width: 540px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cases p {
+    font-weight: 600;
+}
+
+.point {
+    width: 30px;
+    height: 30px;
+    background: #7A66CC;
+    border-radius: 10px 0;
+    margin-right: 20px;
+}
+
+.cases__item {
+    display: flex;
+}
+
+.first {
+    margin-bottom: 30px;
+}
+
+.quote {
+    padding: 85px 0;
+}
+
+.quote__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.quote__text {
+    width: 520px;
+    margin: 0 auto;
+    padding: 50px 510px 50px 80px;
+    border: 1px solid #fff;
+    border-radius: 30px 0;
+}
+
+.quote__img {
+    margin: 0 auto;
+    position: absolute;
+    right: 75px;
+    /* left: 953px; */
+}
+
+.quote__text p {
+    background: url('../img/quotes.png') no-repeat;
+}
+
+.quote__text hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: none;
+    height: 1px;
+    background: #fff;
+    opacity: 0.6;
+}
+
+.quote__text a {
+    color: #7A66CC;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.quote__text a:hover {
+    color: #6a57b9;
+}
+
+.tracks {
+    padding: 180px 0;
+}
+
+.tracks__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tracks .progress-bar {
+    width: 317px;
+}
+
+.tracks .title {
+    margin-bottom: 62px;
+}
+
+.tracks .title img {
+    margin-right: 30px;
+}
+
+.tracks h2 {
+    display: inline;
+}
+
+.tracks__list {
+    margin-top: 50px;
+}
+
+.tracks__list-item {
+    display: flex;
+    margin-bottom: 20px;
+    width: 511px;
+}
+
+.num {
+    font-size: 14px;
+    font-weight: 700;
+    opacity: 0.5;
+    margin-right: 20px;
+}
+
+.track-name:hover {
+    transition: all 0.3s ease;
+    color: #7A66CC;
+    cursor: pointer;
+}
+
+.active {
+    color: #7A66CC;
+}
+
+.tracks__follow {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.trscks__follow-spotify, .trscks__follow-itunes {
+    display: flex;
+    align-items: center;
+}
+
+.trscks__follow-spotify {
+    margin-right: 30px;
+}
+
+.tracks__follow img {
+    margin-right: 10px;
+}
+
+.tracks__follow p {
+    margin-right: 40px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.bg-decoration {
+    background: #7A66CC;
+}
+
+.first-layer-decoration {
+    width: 472px;
+    height: 472px;
+    background: #7A66CC;
+    display: flex;
+    align-items: center;
+    border-radius: 250px;
+    opacity: 0.6;
+    position: absolute;
+    margin-left: 17px;
+}
+
+.second-layer-decoration {
+    width: 506px;
+    height: 506px;
+    background: #7A66CC;
+    display: flex;
+    align-items: center;
+    border-radius: 260px;
+    opacity: 0.3;
+    position: absolute;
+}
+
+.DJ-photo {
+    position: relative;
+    margin: 0 auto;
+    margin-right: 128px;
+    z-index: 1;
+}
+
+.gallery-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.poster {
+    position: relative;
+}
+
+.central-posters a {
+    position: relative;
+}
+
+.special-poster {
+    width: 540px;
+    height: 228px;
+    margin-top: 29px;
+    border-radius: 30px 0;
+}
+
+.poster-discr {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.central-posters .poster-discr {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -257%);
+}
+
+.gallery p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #7A66CC;
+    visibility: hidden;
+}
+
+.central-top-posters {
+    display: flex;
+    justify-content: space-between;
+}
+
+.central-top-posters .poster-discr {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -80%);
+}
+
+.gallery a:hover .poster-discr {
+    transition: all 2s ease;
+    visibility: visible;
+}
+
+.gallery a:hover img {
+    transition: all 0.3s ease;
+    opacity: 0.2;
+}
+
+.gallery a {
+    text-align: center;
+}
+
+.carousel {
+    padding: 180px 0;
+}
+
+.carousel p {
+    color: #fff;
+}
+
+.carousel__event-card {
+    width: 350px;
+    height: 473px;
+    background: #2F2B2B;
+    border-radius: 30px 0;
+}
+
+.place {
+    font-weight: 700;
+    opacity: 0.5;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 35px;
+}
+
+.event__title {
+    font-weight: 500;
+    margin-bottom: 26px;
+    padding-left: 35px;
+}
+
+.date-tickets-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date-tickets-wrapper .date {
+    font-size: 16px;
+    font-weight: 700;
+    opacity: 0.5;
+    padding-left: 40px;
+}
+
+.date-tickets-wrapper a {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    background: #7A66CC;
+    border-radius: 30px 0;
+    padding: 18px 62px 18px 52px;
+}
+
+.footer {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.contacts {
+    text-transform: uppercase;
+    margin: 60px 0;
+}
+
+.contacts__info {
+    display: inline-block;
+    text-align: end;
+    font-weight: 600;
+    margin-right: 30px;
+}
+
+.contacts__data {
+    display: inline-block;
+    text-align: initial;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 510px;
+    margin: 0 auto;
+}
+
+.socials a:hover .socials__background {
+    transition: all 0.3s ease;
+    width: 60px;
+    height: 60px;
+    transform: translate(0, -50%);
+}
+
+.socials__background {
+    background: #7A66CC;
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    position: relative;
+    top: 50%;
+    transform: translate(18%, -50%);
+}
+
+.socials__background img {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.socials__outer-background {
+    background: #2C2C2C;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    border-radius: 50px;
+}
+
+.rights {
+    font-size: 13px;
+    opacity: 0.5;
+    margin-top: 100px;
+}

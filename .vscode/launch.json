@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "name": "http://file:///D:/frontend/practice/DJ%20Web-Site/index.html#",
+            "request": "launch",
+            "url": "http://file:///D:/frontend/practice/DJ%20Web-Site/index.html#"
+        }
+    ]
+}
